@@ -138,7 +138,7 @@ export default function Home() {
             </p>
 
             <a
-              href="https://chat.whatsapp.com/i9cuoVC8TRr4JGn8nplZXx?s=sw&p=i&mlu=4&ilr=4"
+              href="https://chat.whatsapp.com/I9CuoVC8TRr4JGn8npIZXx?s=sw&p=i&mlu=4&ilr=4"
               target="_blank"
               rel="noopener noreferrer"
               className="whatsapp-button"
