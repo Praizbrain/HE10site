@@ -79,15 +79,13 @@ export default function Home() {
           </h2>
 
           <p>
-            Behind every great experience is a team of people willing to serve.
-            The HOPE10 workforce is made up of people ready to contribute their
-            time, energy, creativity and skills.
+            Hope Expererince is an event where jesus meet men, for 10 years. Our
+            workforce is made up of talented, passionate and committed
+            individual from different backgrounds and denominators ready to use
+            thier resources and time to advance the kingdom of God
           </p>
 
-          <p>
-            If you are ready to be part of what God is doing through HOPE10,
-            this is your opportunity to step forward.
-          </p>
+          <p>WE WANT YOU TO BE PART OF US. This is your Opportunity!!!x</p>
         </div>
       </section>
 
@@ -140,7 +138,7 @@ export default function Home() {
             </p>
 
             <a
-              href="https://chat.whatsapp.com/Ip7smcfuxETBTCdPEBrJgi"
+              href="https://chat.whatsapp.com/i9cuoVC8TRr4JGn8nplZXx?s=sw&p=i&mlu=4&ilr=4"
               target="_blank"
               rel="noopener noreferrer"
               className="whatsapp-button"
