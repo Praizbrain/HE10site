@@ -1,0 +1,395 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700;800;900&family=Inter:wght@400;500;600;700;800&display=swap");
+
+:root {
+  --black: #020503;
+  --deep-green: #031008;
+  --green: #52ff00;
+  --green-soft: #19c900;
+  --white: #f4f7f3;
+  --muted: #aab4ac;
+  --line: rgba(255, 255, 255, 0.1);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--black);
+  color: var(--white);
+  font-family: "Inter", sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.site {
+  overflow: hidden;
+}
+
+/* =========================
+   HERO
+========================= */
+
+.hero {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 24px 70px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.hero-image {
+  position: absolute;
+  inset: 0;
+  background-image: url("/hope10-poster.jpg");
+  background-size: cover;
+  background-position: center top;
+  transform: scale(1.03);
+}
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(
+      180deg,
+      rgba(0, 10, 3, 0.15) 0%,
+      rgba(0, 8, 3, 0.3) 40%,
+      rgba(1, 5, 2, 0.92) 100%
+    ),
+    linear-gradient(
+      90deg,
+      rgba(0, 10, 3, 0.45),
+      transparent 50%,
+      rgba(0, 10, 3, 0.45)
+    );
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  max-width: 900px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero-line {
+  width: 70px;
+  height: 2px;
+  background: var(--green);
+  margin: 12px 0 22px;
+}
+
+.hero-kicker,
+.eyebrow {
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+}
+
+.hero-kicker {
+  color: var(--green);
+  margin: 0 0 20px;
+}
+
+.hero h1 {
+  margin: 0;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: clamp(58px, 9vw, 105px);
+  line-height: 0.82;
+  font-weight: 900;
+  letter-spacing: -0.02em;
+}
+
+.hero h1 span {
+  color: var(--green);
+}
+
+.hero-description {
+  max-width: 600px;
+  margin: 27px auto 30px;
+  color: #d2d9d4;
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+.hero-button,
+.whatsapp-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 25px;
+  padding: 16px 23px;
+  background: var(--green);
+  color: #031004;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  transition: 0.25s ease;
+}
+
+.hero-button span,
+.whatsapp-button span {
+  font-size: 18px;
+}
+
+.hero-button:hover,
+.whatsapp-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 15px 35px rgba(82, 255, 0, 0.2);
+}
+
+.hero-bottom {
+  position: absolute;
+  z-index: 3;
+  bottom: 28px;
+  left: 5vw;
+  right: 5vw;
+  display: flex;
+  justify-content: space-between;
+  color: rgba(255, 255, 255, 0.45);
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+}
+
+/* =========================
+   INTRO
+========================= */
+
+.intro {
+  max-width: 1200px;
+  margin: auto;
+  padding: 130px 7vw;
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  gap: 50px;
+  border-bottom: 1px solid var(--line);
+}
+
+.section-number {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 80px;
+  font-weight: 900;
+  color: rgba(82, 255, 0, 0.18);
+  line-height: 0.8;
+}
+
+.intro-content {
+  max-width: 750px;
+}
+
+.eyebrow {
+  color: var(--green);
+  margin: 0 0 18px;
+}
+
+.intro h2,
+.registration h2,
+.whatsapp-section h2 {
+  margin: 0;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: clamp(52px, 7vw, 88px);
+  line-height: 0.86;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.intro h2 span,
+.registration h2 span,
+.whatsapp-section h2 span {
+  color: var(--green);
+}
+
+.intro-content > p:not(.eyebrow) {
+  max-width: 650px;
+  color: var(--muted);
+  font-size: 15px;
+  line-height: 1.9;
+  margin-top: 28px;
+}
+
+/* =========================
+   REGISTRATION
+========================= */
+
+.registration {
+  max-width: 1200px;
+  margin: auto;
+  padding: 120px 7vw;
+}
+
+.registration-heading {
+  display: grid;
+  grid-template-columns: 1fr 0.8fr;
+  gap: 70px;
+  align-items: end;
+  margin-bottom: 45px;
+}
+
+.registration-note {
+  margin: 0;
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.8;
+  max-width: 480px;
+}
+
+.luma-wrapper {
+  width: 100%;
+  height: 720px;
+  background: white;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0 30px 90px rgba(0, 0, 0, 0.45);
+}
+
+.luma-frame {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  display: block;
+}
+
+/* =========================
+   WHATSAPP
+========================= */
+
+.whatsapp-section {
+  position: relative;
+  background:
+    radial-gradient(circle at 50% 0%, rgba(48, 255, 0, 0.12), transparent 55%),
+    #050b07;
+  border-top: 1px solid rgba(82, 255, 0, 0.18);
+  border-bottom: 1px solid rgba(82, 255, 0, 0.18);
+}
+
+.whatsapp-inner {
+  max-width: 850px;
+  margin: auto;
+  padding: 120px 30px;
+  text-align: center;
+}
+
+.whatsapp-inner > p:not(.eyebrow) {
+  max-width: 620px;
+  margin: 28px auto;
+  color: var(--muted);
+  line-height: 1.8;
+  font-size: 15px;
+}
+
+.whatsapp-button {
+  margin-top: 5px;
+}
+
+/* =========================
+   FOOTER
+========================= */
+
+.footer {
+  padding: 100px 25px 25px;
+  text-align: center;
+}
+
+.footer-logo {
+  width: min(300px, 70vw);
+  height: auto;
+}
+
+.footer > p {
+  margin: 12px 0 70px;
+  color: #78827b;
+  font-size: 9px;
+  letter-spacing: 0.28em;
+}
+
+.footer-bottom {
+  max-width: 1100px;
+  margin: auto;
+  padding-top: 20px;
+  border-top: 1px solid var(--line);
+  display: flex;
+  justify-content: space-between;
+  color: #505a53;
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 750px) {
+  .hero {
+    min-height: 850px;
+    padding: 90px 20px 80px;
+  }
+
+  .hero h1 {
+    font-size: 62px;
+  }
+
+  .hero-description {
+    font-size: 13px;
+    line-height: 1.7;
+  }
+
+  .hero-bottom {
+    left: 20px;
+    right: 20px;
+  }
+
+  .intro {
+    padding: 90px 24px;
+    grid-template-columns: 1fr;
+    gap: 35px;
+  }
+
+  .section-number {
+    font-size: 55px;
+  }
+
+  .registration {
+    padding: 90px 20px;
+  }
+
+  .registration-heading {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .luma-wrapper {
+    height: 700px;
+  }
+
+  .luma-frame {
+    height: 700px;
+  }
+
+  .whatsapp-inner {
+    padding: 90px 24px;
+  }
+
+  .footer {
+    padding-top: 80px;
+  }
+
+  .footer-bottom {
+    font-size: 8px;
+  }
+}
