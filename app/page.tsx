@@ -40,7 +40,7 @@ export default function Home() {
         <div className="hero-content">
           <div className="hero-line" />
 
-          <p className="hero-kicker">WORKFORCE VOLUNTEER MEETUP</p>
+          <p className="hero-kicker">WORKFORCE VOLUNTEER MEETING</p>
 
           <h1>
             BE PART OF
@@ -49,8 +49,8 @@ export default function Home() {
           </h1>
 
           <p className="hero-description">
-            HOPE10 Experience is bringing people together for a decade of hope
-            and transformation. Join the team helping make it happen.
+            HOPE Experience is bringing people together for a decade of hope and
+            transformation. Join the team helping make it happen.
           </p>
 
           <a href="#registration" className="hero-button">
@@ -60,7 +60,7 @@ export default function Home() {
         </div>
 
         <div className="hero-bottom">
-          <span>HOPE10 EXPERIENCE</span>
+          <span>HOPE EXPERIENCE</span>
           <span>01 — WORKFORCE</span>
         </div>
       </section>
@@ -79,13 +79,13 @@ export default function Home() {
           </h2>
 
           <p>
-            Hope Experience is an event where Jesus meets men, for 10 years. Our
-            workforce is made up of talented, passionate and committed
+            Hope Experience is an event where Jesus meets men, for 10 years Now.
+            Our workforce is made up of talented, passionate and committed
             individuals from different backgrounds and denominations, ready to
             use their resources and time to advance the Kingdom of God.
           </p>
 
-          <p>WE WANT YOU TO BE PART OF US. This is your opportunity!</p>
+          <p>WE WANT YOU TO BE PART OF US. This is your opportunity!!!</p>
         </div>
       </section>
 
@@ -132,9 +132,9 @@ export default function Home() {
             </h2>
 
             <p>
-              You&apos;re officially registered for the HOPE10 workforce. Join
-              the official WhatsApp group to receive the meetup date, venue,
-              instructions and important updates.
+              You&apos;re officially registered for the HOPE EXPERINCE 10
+              workforce. Join the official WhatsApp group to receive the Meeting
+              date, venue, instructions and important updates.
             </p>
 
             <a
@@ -159,11 +159,8 @@ export default function Home() {
           height={220}
           className="footer-logo"
         />
-
-        <p>AN EVENT WHERE JESUS MEETS MEN</p>
-
         <div className="footer-bottom">
-          <span>HOPE10 EXPERIENCE</span>
+          <span>HOPE EXPERIENCE</span>
           <span>© 2026</span>
         </div>
       </footer>
