@@ -79,13 +79,13 @@ export default function Home() {
           </h2>
 
           <p>
-            Hope Expererince is an event where jesus meet men, for 10 years. Our
+            Hope Experience is an event where Jesus meets men, for 10 years. Our
             workforce is made up of talented, passionate and committed
-            individual from different backgrounds and denominators ready to use
-            thier resources and time to advance the kingdom of God
+            individuals from different backgrounds and denominations, ready to
+            use their resources and time to advance the Kingdom of God.
           </p>
 
-          <p>WE WANT YOU TO BE PART OF US. This is your Opportunity!!!x</p>
+          <p>WE WANT YOU TO BE PART OF US. This is your opportunity!</p>
         </div>
       </section>
 
@@ -138,7 +138,7 @@ export default function Home() {
             </p>
 
             <a
-              href="https://chat.whatsapp.com/I9CuoVC8TRr4JGn8npIZXx?s=sw&p=i&mlu=4&ilr=4"
+              href="https://chat.whatsapp.com/I9CuoVC8TRr4JGn8npIZXx"
               target="_blank"
               rel="noopener noreferrer"
               className="whatsapp-button"
